@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy — Official Soundscapes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="cartoon-theme">
+
+    <!-- FLOATING DOODLES LAYER -->
+    <div class="floating-container">
+        <img src="images/float-record-removebg-preview.png" class="float-item item-1" alt="Floating Record">
+        <img src="images/float-headphones-removebg-preview.png" class="float-item item-2" alt="Floating Headphones">
+        <img src="images/float-guitar-removebg-preview.png" class="float-item item-3" alt="Floating Guitar">
+        <img src="images/float-mic-removebg-preview.png" class="float-item item-4" alt="Floating Mic">
+        <img src="images/float-note-removebg-preview.png" class="float-item item-5" alt="Floating Note">
+        <img src="images/float-note-removebg-preview.png" class="float-item item-6" alt="Floating Note">
+
+        <img src="images/float-note-removebg-preview.png" class="float-stream stream-top-1" alt="Note Top">
+        <img src="images/float-mic-removebg-preview.png" class="float-stream stream-top-2" alt="Mic Top">
+        <img src="images/float-record-removebg-preview.png" class="float-stream stream-top-3" alt="Record Top">
+
+        <img src="images/float-headphones-removebg-preview.png" class="float-stream stream-bottom-1" alt="Headphones Bottom">
+        <img src="images/float-guitar-removebg-preview.png" class="float-stream stream-bottom-2" alt="Guitar Bottom">
+        <img src="images/float-note-removebg-preview.png" class="float-stream stream-bottom-3" alt="Note Bottom">
+    </div>
+
+    <div class="page-container">
+        
+        <!-- HEADER -->
+        <header class="navbar">
+            <div class="brand">
+                <img src="images/dog-logo-removebg-preview.png" alt="Joy Logo" class="brand-logo">
+                <div class="brand-text-group">
+                    <div class="brand-title-row">
+                        <span class="brand-name">JOY</span>
+                        <div class="sound-wave" title="Joy's Audio Engine Active">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <span class="tagline">Official Music Showcase</span>
+                </div>
+            </div>
+
+            <button class="surprise-btn" id="surpriseBtn">
+                <span class="btn-sparkle">✨</span> Send Good Vibes <span class="btn-heart">💖</span>
+            </button>
+        </header>
+
+        <!-- MAIN SHOWCASE -->
+        <main class="showcase">
+
+            <!-- 1. PROFILE SECTION -->
+            <section class="profile-section">
+                <div class="profile-card">
+                    <div class="profile-content">
+                        <div class="profile-header">
+                            <span class="badge profile-badge">ABOUT THE ARTIST</span>
+                            <h2>JOY</h2>
+                            <p class="profile-role">Part-Time Lyricist & Author | Creator</p>
+                        </div>
+                        <div class="profile-body">
+                            <p>Hi! Thanks for stopping by. I'm Joy—if you're here, I’ve likely shared this page directly with you.
+
+I hope you enjoy the tracks I've put together below 👇. Take your time listening through them, and feel free to reach out with your thoughts, feedback, or favorite tracks on whichever platform you can catch me.
+
+Have a great time listening! 🎧✨</p>
+                        </div>
+                    </div>
+                    <div class="hero-art-wrapper">
+                        <img src="images/hero-character.jpeg" alt="Joy Character" class="hero-art">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. ALBUM CARD -->
+            <section class="hero-showcase album-card">
+                <div class="hero-content">
+                    <span class="badge">FEATURED ALBUM</span>
+                    <h1>UNTOLD ECHOES</h1>
+                    <p>"Look, I wasn't sure which genre you'd be in the mood for, so I just stacked a few completely different vibes together and called it a day! Give them a listen and feel free to drop your own hot takes or descriptions—honestly, I'm pretty curious to hear how you'd describe them, if you like any song, hit that Send Good Vibes button—it’ll send me lots of love!"</p>
+                </div>
+            </section>
+
+            <!-- 3. PLAYLIST SHOWCASE -->
+            <section class="playlist-section">
+                <div class="playlist-header">
+                    <img src="images/sleeping-dogs.jpeg" alt="Album Cover" class="playlist-cover" id="playlistCover">
+                    <div class="playlist-details">
+                        <h2 id="playlistTitle">MUSIC</h2>
+                        <p class="meta" id="playlistMeta">Select a track to play • Original tracks by Joy</p>
+                    </div>
+                </div>
+
+                <!-- TRACKLIST CONTAINER -->
+                <div class="tracklist" id="tracklistContainer">
+                    <div class="track-row active-track" data-track-index="0">
+                        <span class="track-num">01</span>
+                        <div class="track-main">
+                            <span class="track-title">STILL I RISE</span>
+                            <span class="track-artist">Joy</span>
+                        </div>
+                        <div class="track-action">
+                            <div class="inline-play-btn">
+                                <img src="images/play-icon-removebg-preview.png" alt="Play" class="track-play-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="track-row" data-track-index="1">
+                        <span class="track-num">02</span>
+                        <div class="track-main">
+                            <span class="track-title">OVERTHINKER</span>
+                            <span class="track-artist">Joy</span>
+                        </div>
+                        <div class="track-action">
+                            <div class="inline-play-btn">
+                                <img src="images/play-icon-removebg-preview.png" alt="Play" class="track-play-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="track-row" data-track-index="2">
+                        <span class="track-num">03</span>
+                        <div class="track-main">
+                            <span class="track-title">IRON SYMPHONY</span>
+                            <span class="track-artist">Joy</span>
+                        </div>
+                        <div class="track-action">
+                            <div class="inline-play-btn">
+                                <img src="images/play-icon-removebg-preview.png" alt="Play" class="track-play-icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="track-row" data-track-index="3">
+                        <span class="track-num">04</span>
+                        <div class="track-main">
+                            <span class="track-title">CHASING TOMORROW</span>
+                            <span class="track-artist">Joy</span>
+                        </div>
+                        <div class="track-action">
+                            <div class="inline-play-btn">
+                                <img src="images/play-icon-removebg-preview.png" alt="Play" class="track-play-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. GIFT BOX SECTION -->
+            <section class="gift-section">
+                <div class="gift-card">
+                    <p class="gift-card-text">
+                        "If you've listened to the tracks and sent some good vibes, go ahead and open this 👇"
+                    </p>
+                    
+                    <!-- CLICKABLE GIFT BOX -->
+                    <!-- CLICKABLE GIFT BOX IMAGE -->
+<button id="giftBoxTrigger" class="gift-box-trigger" title="Click to open your gift!">
+    <img src="images/gift-box.png" alt="Gift Box" class="gift-box-img">
+</button>
+
+                    <!-- REVEALED TEXT FIELD (HIDDEN BY DEFAULT) -->
+                    <div id="giftNoteContainer" class="gift-note-container">
+                        <button id="closeGiftNoteBtn" class="close-gift-note-btn" title="Close">✖</button>
+                        <p class="gift-note-text">
+                            "Since this is a static website, I couldn't receive any of your love—so say hi whenever you find me! 💖"
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FLOATING BOTTOM PLAYER -->
+        <footer class="floating-player">
+            <div class="player-left">
+                <img src="covers/still-i-rise.jpeg" alt="Current Track" class="player-thumb" id="playerThumb">
+                <div class="player-meta">
+                    <p class="song-name" id="playerSongName">Still I Rise</p>
+                    <p class="song-artist" id="playerSongArtist">Joy</p>
+                </div>
+            </div>
+
+            <div class="player-center">
+                <button class="main-play-btn" id="playBtn">
+                    <img src="images/play-icon-removebg-preview.png" alt="Play" id="playIcon">
+                </button>
+
+                <div class="equalizer" id="equalizer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="progress-wrapper">
+                    <span class="time-label" id="currentTime">0:00</span>
+                    <div class="progress-bar-container" id="progressBarContainer">
+                        <div class="progress-fill" id="progressBar"></div>
+                        <img src="images/handle-paw-removebg-preview.png" class="paw-scrubber" id="pawHandle" alt="Paw">
+                    </div>
+                    <span class="time-label" id="duration">0:00</span>
+                </div>
+            </div>
+
+            <div class="player-right">
+                <button class="lyrics-btn" id="lyricsBtn">📜 Lyrics</button>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- COMIC POP-UP LYRICS MODAL -->
+    <div class="comic-modal-overlay" id="lyricsModal">
+        <div class="comic-modal">
+            <div class="comic-modal-header">
+                <span class="comic-badge">BOOM! 🎶</span>
+                <h3 id="lyricsTitle">Still I Rise — Lyrics</h3>
+                <button class="comic-close-btn" id="closeLyricsBtn">✖</button>
+            </div>
+            <div class="comic-modal-body" id="lyricsContent"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
