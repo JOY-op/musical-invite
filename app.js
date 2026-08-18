@@ -312,8 +312,193 @@ Those were the days you were looking for all along.
 When I was a child,I chased tomorrow.
 Now that I've finally caught it,
 I miss yesterday......`
-    }
+    },
+{
+    title: "MAGIC IN YOUR EYES",
+    artist: "Joy",
+    audioSrc: "audio/Magic in Your Eyes (Dreamy Acoustic Version).mp3", // path to your audio file
+    cover: "covers/MAGIC IN YOUR EYES.jpeg", // path to your cover art
+    lyrics: `Oh-oh-oh… yeah…
+
+Underneath the moonlight, I found you…
+And suddenly, everything feels brand new.
+Baby, you’re my magic…
+
+When you smile, the stars come out,
+You turn my silence into a song.
+Every heartbeat calls your name,
+With you, I know where I belong.
+
+I was walking through the night,
+Looking for a little light,
+Then you came and took my hand,
+Now I finally understand.
+
+Every little moment,
+Every word you say,
+Makes my heart fall deeper
+In the sweetest way.
+
+You’re the magic in my eyes,
+The sweetest dream beneath the skies.
+If love is a spell, let it stay,
+I’ll choose you again every day.
+
+Hold my hand, don’t let it go,
+There’s a thousand things I want you to know.
+In this crazy world, one thing is true—
+My favorite place will always be with you.
+
+When the rain is falling down,
+You’re the rainbow in my gray.
+When I’m lost and can’t be found,
+You somehow lead me on my way.
+
+Your laughter is my melody,
+Your eyes are where I want to be.
+And if forever has a name,
+I swear it sounds just like your name.
+
+Every little moment,
+Every touch so sweet,
+Feels like destiny has brought
+Our two hearts to meet.
+
+You’re the magic in my eyes,
+The sweetest dream beneath the skies.
+If love is a spell, let it stay,
+I’ll choose you again every day.
+
+Hold my hand, don’t let it go,
+There’s a thousand things I want you to know.
+In this crazy world, one thing is true—
+My favorite place will always be with you.
+
+And if the stars should disappear,
+I’ll still find you, I’ll keep you near.
+If the whole world fades away,
+I’ll love you more with every day.
+
+No magic wand, no crystal ball,
+Could ever make me love you more at all.
+Because somehow, somehow, it’s true—
+The greatest magic… is me and you.
+
+Ohhh…
+You’re my moonlight…
+You’re my sunshine…
+You’re the dream I never knew I was waiting for all this time.
+
+You’re the magic in my eyes,
+My forever underneath the skies.
+If love is a spell, let it stay,
+I’ll choose you again every day.
+
+Hold my hand, don’t let it go,
+You’re the only love I want to know.
+In this crazy world, one thing is true—
+My heart found its home…
+When it found you.
+
+Oh-oh-oh…
+My favorite place is here with you…
+No matter where we go, I’ll always choose you.
+
+You’re my magic…
+My forever…
+My love.
+`
+},
+{
+    title: "LET YOU GO",
+    artist: "Joy",
+    cover: "covers/LET YOU GO.jpeg",
+    audioSrc: "audio/Let You In V2 (Remix).mp3", // <-- CHANGE 'src' TO 'audioSrc'
+    lyrics: `(I still check my phone)
+(I still turn around)
+(I still think you're coming back)
+(When there's no one around)
+
+I still know your favorite song
+Still skip the one we used to play
+Still catch myself saving things
+I would've sent you yesterday
+I still walk the longer way
+Past the places we would go
+Funny how a heart can stay
+Long after someone lets it go
+
+And I know time is supposed to heal
+But nobody tells you what it feels like
+When the person you were dreaming of
+Becomes the person you survive
+
+I still, still, still
+Love you when I shouldn't
+I still, still, still
+Wish I never couldn't
+Let you go, let you go
+That's what everybody says
+But I still, still, still
+Find you in my head
+I still...
+Yeah, I still.
+
+I still hear your voice sometimes
+In crowded rooms and passing cars
+I still remember little things
+That shouldn't mean this much anymore
+I still type out what I feel
+Then delete it like before
+I still wonder if you miss me
+Or if you don't think of me anymore
+
+And maybe we were meant to end
+Maybe some things can't be saved
+But knowing that it's over
+Doesn't make the missing fade
+
+So here's the part nobody says—
+You can forgive and still feel hurt
+You can move on and still look back
+You can love someone and know it won't work
+I don't want the past back.
+I just want it not to hurt
+Every time I remember
+How good it was at first
+
+I still, still, still
+Love you when I shouldn't
+I still, still, still
+Wish I never couldn't
+Let you go, let you go
+That's what everybody says
+But I still, still, still
+Find you in my head
+I still, still, still
+Even though you're gone
+I still, still, still
+Wake up reaching for you
+And I know, I know, I know
+Someday this will fade—
+But tonight, tonight, tonight...
+I still.
+
+(I still check my phone)
+(I still turn around)
+(I still think you're coming back)
+(When there's no one around)
+I still.
+
+I still, still, still
+Love you when I shouldn't
+I still, still, still
+Wish I never couldn't
+(When there's no one around)
+I still.`
+}
 ];
+
 
 // STATE & CONSTANTS
 const completedTracks = new Set();
